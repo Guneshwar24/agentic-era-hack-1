@@ -1,0 +1,7 @@
+   153.8ms (setup:1108): 2025-05-23 08:38:29
+   154.0ms (setup:1109): /home/student_00_0b4788a1a715/.local/lib/python3.12/site-packages/pipx/__main__.py ensurepath
+   154.1ms (setup:1110): pipx version is 1.7.1
+   154.1ms (setup:1111): Default python interpreter is '/usr/bin/python3.12'
+   163.0ms (ensure_pipx_paths:134): ⚠️  All pipx binary directories have been appended to PATH. If you are sure you want to proceed, try again with the '--force' flag.
+
+   163.6ms (cli:1187): pipx finished.

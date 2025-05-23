@@ -1,0 +1,14 @@
+   154.2ms (setup:1108): 2025-05-23 08:37:43
+   154.4ms (setup:1109): /home/student_00_0b4788a1a715/.local/bin/pipx install agent-starter-pack
+   154.5ms (setup:1110): pipx version is 1.7.1
+   154.5ms (setup:1111): Default python interpreter is '/usr/bin/python3.12'
+   156.3ms (package_name_from_spec:378): Determined package name: agent-starter-pack
+   156.4ms (package_name_from_spec:379): Package name determined in 0.0s
+   158.0ms (run_subprocess:175): running <checking pip's availability>
+   185.4ms (run_subprocess:195): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7af47ef23320>, origin='/home/student_00_0b4788a1a715/.local/share/pipx/shared/lib/python3.12/site-packages/pip/__init__.py', submodule_search_locations=['/home/student_00_0b4788a1a715/.local/share/pipx/shared/lib/python3.12/site-packages/pip'])
+   185.5ms (run_subprocess:198): returncode: 0
+   186.3ms (needs_upgrade:99): Time since last upgrade of shared libs, in seconds: 300. Upgrade will be run by pipx if greater than 2592000.
+   186.9ms (run_subprocess:175): running <checking pip's availability>
+   213.9ms (run_subprocess:195): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7d2dd1653320>, origin='/home/student_00_0b4788a1a715/.local/share/pipx/shared/lib/python3.12/site-packages/pip/__init__.py', submodule_search_locations=['/home/student_00_0b4788a1a715/.local/share/pipx/shared/lib/python3.12/site-packages/pip'])
+   214.0ms (run_subprocess:198): returncode: 0
+   214.7ms (cli:1187): pipx finished.

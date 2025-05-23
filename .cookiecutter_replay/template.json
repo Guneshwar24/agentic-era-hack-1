@@ -1,0 +1,55 @@
+{
+  "cookiecutter": {
+    "project_name": "my-agent-gendan",
+    "agent_name": "adk_base",
+    "package_version": "0.4.4",
+    "agent_description": "A base ReAct agent built with Google's Agent Development Kit (ADK)",
+    "example_question": "What's the weather in San Francisco?                         ",
+    "tags": "adk",
+    "deployment_target": "agent_engine",
+    "frontend_type": "None",
+    "extra_dependencies": [
+      "google-adk~=0.5.0"
+    ],
+    "data_ingestion": false,
+    "datastore_type": "",
+    "_copy_without_render": [
+      "*.ipynb",
+      "*.json",
+      "frontend/*",
+      "notebooks/*",
+      ".git/*",
+      "__pycache__/*",
+      "**/__pycache__/*",
+      ".pytest_cache/*",
+      ".venv/*",
+      "*templates.py",
+      "!*.py",
+      "!Makefile",
+      "!README.md"
+    ],
+    "_template": "/tmp/tmp872h4opu/template",
+    "_output_dir": "/tmp/tmp872h4opu",
+    "_repo_dir": "/tmp/tmp872h4opu/template",
+    "_checkout": null
+  },
+  "_cookiecutter": {
+    "project_name": "my-agent-gendan",
+    "agent_name": "adk_base",
+    "package_version": "0.4.4",
+    "agent_description": "A base ReAct agent built with Google's Agent Development Kit (ADK)",
+    "example_question": "What's the weather in San Francisco?                         ",
+    "tags": [
+      "adk"
+    ],
+    "deployment_target": "agent_engine",
+    "frontend_type": "None",
+    "extra_dependencies": [
+      [
+        "google-adk~=0.5.0"
+      ]
+    ],
+    "data_ingestion": false,
+    "datastore_type": ""
+  }
+}
